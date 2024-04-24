@@ -59,6 +59,7 @@ input[type="submit"] {
   background-position: center;
 }
 
+/* for navbar style */
 .container {
   height: 10vh;
   width: 80%;
@@ -66,4 +67,11 @@ input[type="submit"] {
   justify-content: space-between;
   align-items: center;
   background-color: red;
+}
+
+.logo a {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
 }
