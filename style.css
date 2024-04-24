@@ -58,3 +58,12 @@ input[type="submit"] {
   background-size: cover;
   background-position: center;
 }
+
+.container {
+  height: 10vh;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+}
