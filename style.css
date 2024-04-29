@@ -127,3 +127,19 @@ main {
   color: #fff;
   padding: 3rem 2rem;
 }
+
+.form-text p {
+  width: 30ch;
+  align-items: center;
+  margin: 2rem 0 3rem 0;
+}
+
+.form-text button {
+  background-color: #fff;
+  color: black;
+}
+
+.form-text button:hover {
+  background-color: transparent;
+  color: #fff;
+}
