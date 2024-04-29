@@ -91,3 +91,39 @@ li > a {
 }
 
 /* Home Page Styling */
+
+/* Registration Page styling */
+main {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registration,
+.login {
+  min-height: 30rem;
+  min-width: 40vw;
+  background-color: skyblue;
+}
+
+.grid-two--column {
+  display: grid;
+  /* two Box divide here */
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.form-text {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url("/image/happy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 3rem 2rem;
+}
