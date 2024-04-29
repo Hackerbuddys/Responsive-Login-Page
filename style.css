@@ -52,7 +52,7 @@ input[type="submit"] {
 /* now this is my registration page styling */
 .registration-header {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(image/brunette.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,6 +63,7 @@ input[type="submit"] {
 .container {
   height: 10vh;
   width: 80%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -76,4 +77,17 @@ input[type="submit"] {
   text-decoration: none;
 }
 
-/* rougg comments */
+ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+li > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Home Page Styling */
