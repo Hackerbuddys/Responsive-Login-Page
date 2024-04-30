@@ -162,9 +162,11 @@ main {
 
 /* Fa Icons Styling */
 
-.fab {
+.social-icons > a {
   width: 4rem;
   height: 4rem;
+  text-decoration: none;
+  font-size: 1.7rem;
   border-radius: 50%;
   border: 0.1rem solid #ccc;
   display: inline-flex;
