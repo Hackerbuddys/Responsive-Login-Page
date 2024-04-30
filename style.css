@@ -195,3 +195,9 @@ input[type="submit"] {
   background-color: var(--var-primary-color);
   color: #fff;
 }
+
+/* for main javaScript styling here */
+
+.login-section--display .login {
+  display: none;
+}
