@@ -162,14 +162,36 @@ main {
 
 /* Fa Icons Styling */
 
+.social-icons {
+  display: flex;
+  gap: 1.4rem;
+  margin: 1rem 0 0.6rem 0;
+}
+
 .social-icons > a {
   width: 4rem;
   height: 4rem;
   text-decoration: none;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   border-radius: 50%;
   border: 0.1rem solid #ccc;
   display: inline-flex;
   justify-content: center;
   align-items: center;
+}
+
+input {
+  width: 20rem;
+  margin: 0.7rem 0;
+  padding: 1rem 1.8rem;
+  border: none;
+  background-color: #e8e8e8;
+  letter-spacing: 0.06;
+}
+
+input[type="submit"] {
+  margin-top: 1rem;
+  min-width: 10rem;
+  background-color: var(--var-primary-color);
+  color: #fff;
 }
