@@ -198,6 +198,10 @@ input[type="submit"] {
 
 /* for main javaScript styling here */
 
+.registration:not(.login-section--display) {
+  display: none;
+}
+
 .login-section--display .registration {
   display: block;
 }
