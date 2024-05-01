@@ -53,7 +53,7 @@ input[type="submit"] {
 .registration-header {
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(image/brunette.jpg);
+    url(image/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -67,7 +67,6 @@ input[type="submit"] {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: red;
 }
 
 .logo a {
@@ -104,7 +103,6 @@ main {
 .login {
   min-height: 30rem;
   min-width: 40vw;
-  background-color: skyblue;
 }
 
 .grid-two--column {
@@ -126,6 +124,13 @@ main {
   background-position: center;
   color: #fff;
   padding: 3rem 2rem;
+}
+
+.login .form-text {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
+    url(image/brunette.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .form-text p {
@@ -208,4 +213,30 @@ input[type="submit"] {
 
 .login-section--display .login {
   display: none;
+}
+
+/* Home Page Styling index.html page */
+
+/* actual size take  */
+.hero-section .container {
+  height: inherit;
+}
+
+.hero-content {
+  color: #fff;
+  text-align: center;
+}
+
+.hero-content p {
+  text-transform: uppercase;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+}
+
+.hero-content button {
+  margin-top: 2rem;
+  background-color: var(--var-primary-color);
+  border: none;
+  padding: 1rem 2rem;
 }
