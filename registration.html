@@ -60,7 +60,7 @@
                   </a>
                 </div>
                 <p>Or use your email for registration:</p>
-                <form action="#">
+                <form action="register.php" method="post">
                   <div class="input-field">
                     <label for="username">
                       <input
@@ -76,7 +76,7 @@
                     <label for="Email">
                       <input
                         type="email"
-                        name="#"
+                        name="email"
                         id="Email"
                         placeholder="Email"
                         required
@@ -87,7 +87,7 @@
                     <label for="Password">
                       <input
                         type="password"
-                        name="#"
+                        name="password"
                         id="Password"
                         placeholder="Password"
                         required
@@ -95,7 +95,7 @@
                     </label>
                   </div>
                   <div class="input-field">
-                    <input type="submit" value="register" />
+                    <input type="submit" value="register" name="register" />
                   </div>
                 </form>
               </div>
@@ -152,7 +152,7 @@
                     </label>
                   </div>
                   <div class="input-field">
-                    <input type="submit" value="Login" />
+                    <input type="submit" value="Login" name="login" />
                   </div>
                 </form>
               </div>
