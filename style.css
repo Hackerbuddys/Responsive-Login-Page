@@ -152,7 +152,7 @@ main {
 .registration-form,
 .login-form {
   width: 100%;
-  min-height: 40vh;
+  min-height: 53vh;
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -239,4 +239,41 @@ input[type="submit"] {
   background-color: var(--var-primary-color);
   border: none;
   padding: 1rem 2rem;
+}
+
+/* add media quary for responsive pages  */
+@media screen and (max-width: 768px) {
+  .grid-two--column {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .registration-header .container,
+  .home-header .container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .registration-header .container .logo,
+  .home-header .container .logo {
+    padding-top: 2rem;
+  }
+
+  .registration,
+  .login {
+    min-width: 90vw;
+  }
+
+  .form-text {
+    order: 1;
+  }
+
+  .registration,
+  .login {
+    order: 0;
+  }
+
+  .form-text p {
+    width: 25ch;
+  }
 }
